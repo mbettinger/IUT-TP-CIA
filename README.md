@@ -60,7 +60,7 @@ Il possède deux sous-commandes:
 - `push <src> <dst>` pour l'envoi zone de travail -> backup
 - `pull <src> <dst>` pour la restoration du backup dans la zone de travail.
 A l'état actuel, le comportement des commandes est identique, mis à part l'inversion entre la source et la destination, ainsi que l'affichage.
-Cependant, l'ajout des contraintes de sécurité cryptographique CIA dans la section suivante demanderont des actions différentes en push et en pull, d'où l'implémentation dès à présent en deux sous-commandes. 
+Cependant, l'ajout des contraintes de sécurité cryptographique CIA dans la section suivante demandera des actions différentes en push et en pull, d'où l'implémentation dès à présent en deux sous-commandes. 
 
 ### 3.2
 A partir de ce script et des commandes utilisées pour les parties précédentes, vous devez désormais ajouter les propriétés de confidentialité, intégrité et authenticité à l'outil de backup.
