@@ -1,0 +1,5 @@
+files/*
+encrypted/*
+keys/*
+out.csv
+tmp
