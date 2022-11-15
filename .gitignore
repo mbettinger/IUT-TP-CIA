@@ -1,5 +1,5 @@
-files/*
-encrypted/*
-keys/*
-out.csv
-tmp
+mechanisms/files/*
+mechanisms/encrypted/*
+mechanisms/keys/*
+mechanisms/out.csv
+mechanisms/tmp

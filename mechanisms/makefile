@@ -30,6 +30,9 @@ create_files: mkdirs
 encrypt_sym:
 	./encryptor.sh ${ENC_FOLDER} ${FILES_FOLDER} ${KEY_FILE} ${ALGOS} ${OUT_FILE} ${NB_REPEATS}
 
+decrypt_sym:
+	./encryptor.sh ${ENC_FOLDER} ${FILES_FOLDER} ${KEY_FILE} ${ALGOS} ${OUT_FILE} ${NB_REPEATS} Decrypt
+
 gen_asym_keys: mkdirs
 	openssl genrsa -out ${RSA_PRIV_FILE} ${RSA_KEY_SIZE}
 	openssl rsa -in ${RSA_PRIV_FILE} -pubout -out ${RSA_PUB_FILE}
