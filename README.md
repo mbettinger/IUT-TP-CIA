@@ -63,4 +63,4 @@ A l'état actuel, le comportement des commandes est identique, mis à part l'inv
 Cependant, l'ajout des contraintes de sécurité cryptographique CIA dans la section suivante demandera des actions différentes en push et en pull, d'où l'implémentation dès à présent en deux sous-commandes. 
 
 ### 3.2
-A partir de ce script et des commandes utilisées pour les parties précédentes, vous devez désormais ajouter les propriétés de confidentialité, intégrité et authenticité à l'outil de backup.
+A partir de ce script et des commandes utilisées pour les parties précédentes, vous devez désormais ajouter les propriétés de confidentialité, intégrité et authenticité à l'outil de backup, pour protéger les fichiers envoyés dans la zone de backup.
