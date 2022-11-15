@@ -40,6 +40,9 @@ gen_asym_keys: mkdirs
 encrypt_asym: gen_asym_keys
 	./encryptor_asym.sh ${ENC_FOLDER} ${FILES_FOLDER} ${RSA_PUB_FILE} ${OUT_FILE} ${NB_REPEATS}
 
+encrypt_asym_naive: gen_asym_keys
+	./encryptor_asym.sh ${ENC_FOLDER} ${FILES_FOLDER} ${RSA_PUB_FILE} ${OUT_FILE} ${NB_REPEATS} NAIVE
+
 password: mkdirs
 	./get_pass.sh ${KEY_FILE}
 

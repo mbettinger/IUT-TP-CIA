@@ -23,7 +23,7 @@ else
 	for file in `ls $FILES_FOLDER`
 	do
 		echo $file
-		./chrono.sh "openssl rsautl -encrypt -pubin -inkey $KEY_FILE -in $FILES_FOLDER/$file -out $ENC_FOLDER/$file-rsa" $OUT_FILE $NB_REPEATS
+		./chrono.sh "openssl rsautl -encrypt -pubin -inkey $RSA_PUB_FILE -in $FILES_FOLDER/$file -out $ENC_FOLDER/$file-rsa" $OUT_FILE $NB_REPEATS
 		if test -s $ENC_FOLDER/$file-rsa
 		then echo Successfully encrypted $ENC_FOLDER/$file-rsa!
 		fi

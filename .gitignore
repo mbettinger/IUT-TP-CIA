@@ -3,3 +3,6 @@ mechanisms/encrypted/*
 mechanisms/keys/*
 mechanisms/out.csv
 mechanisms/tmp
+
+backupper/backup
+backupper/src
