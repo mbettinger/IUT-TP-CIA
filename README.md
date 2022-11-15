@@ -4,7 +4,7 @@ Ce TP est divisé en deux parties principales:
 - les parties 1 et 2 ont pour objectif de prendre en main et **manipuler les mécanismes** vus respectivement lors des séances 1 et 2 du cours, ainsi que de compléter ces apports théoriques par quelques expériences ou **évaluations des performances des algorithmes** en termes de temps d'exécution (l'attaque de ces algorithmes par cryptanalyse, bien qu'intéressante, est hors de la frontière d'étude pour ce TP, par contrainte de temps).
 - la partie 3 vise à construire un outil de backup de fichier simple, sur lequel les mécanismes utilisés dans les parties 1 et 2 seront intégrés pour garantir des propriétés cryptographiques.
 
-Les répertoires *mechanisms* et *backupper* contiennent des scripts pour accomplir les tâches des sections suivantes.
+Les répertoires *mechanisms* et *backupper* contiennent des scripts pour accomplir tout ou partie de tâches des sections suivantes.
 
 Parmi les scripts utilitaires : 
 - `chrono.sh` permet de logger le temps d'exécution d'une commande donnée en paramètre et de l'écrire optionnellement dans un fichier (permettant une analyse plus fine, notamment par la création de figures/graphes)
