@@ -41,6 +41,7 @@ password: mkdirs
 	./get_pass.sh ${KEY_FILE}
 
 clean:
-	rmdir -rf ${FILES_FOLDER}
-	rmdir -rf ${ENC_FOLDER}
-	rmdir -rf ${KEYS_DIR}
+	rm -rf ${FILES_FOLDER}
+	rm -rf ${ENC_FOLDER}
+	rm -rf ${KEYS_DIR}
+	rm -rf tmp

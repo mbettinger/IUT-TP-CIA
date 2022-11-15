@@ -14,11 +14,11 @@ then
 	for file in `ls ../$FILES_FOLDER`
 	do
 		echo $file
-		../chrono.sh "$rootdir/splitNencrypt.sh ../${ENC_FOLDER} ../${FILES_FOLDER}/$file ../${RSA_PUB_FILE}" ../${OUT_FILE} ${NB_REPEATS}
+		../chrono.sh "$rootdir/splitNencrypt.sh ../${ENC_FOLDER} ../${FILES_FOLDER} $file ../${RSA_PUB_FILE}" ../${OUT_FILE} ${NB_REPEATS}
 		rm -f x*
 	done
 	cd ..
-	rmdir tmp
+	rm -rf tmp
 else
 	for file in `ls $FILES_FOLDER`
 	do
