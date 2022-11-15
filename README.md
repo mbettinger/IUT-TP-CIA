@@ -59,6 +59,7 @@ En utilisant des outils similaires à ceux utilisés en partie 1., effectuez les
 Il possède deux sous-commandes:
 - `push <src> <dst>` pour l'envoi zone de travail -> backup
 - `pull <src> <dst>` pour la restoration du backup dans la zone de travail.
+
 A l'état actuel, le comportement des commandes est identique, mis à part l'inversion entre la source et la destination, ainsi que l'affichage.
 Cependant, l'ajout des contraintes de sécurité cryptographique CIA dans la section suivante demandera des actions différentes en push et en pull, d'où l'implémentation dès à présent en deux sous-commandes. 
 
